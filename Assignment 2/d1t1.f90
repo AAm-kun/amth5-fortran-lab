@@ -5,12 +5,13 @@ program  quadratic
     read(*,*)a,b,c
     dis=(b**2)-(4*a*c)
     print*,a,b,c,dis
+    open(unit=10,file="result.txt")
     if(dis==0)then
-        write(*,*)"Roots are real and equal"
+        write(10,*)"Roots are real and equal"
     else if(dis>0)then
-        write(*,*)"Roots are real and different"
+        write(10,*)"Roots are real and different"
     else
-        write(*,*)"Roots are complex"        
+        write(10,*)"Roots are complex"        
     end if
 
     
