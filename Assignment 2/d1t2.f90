@@ -1,4 +1,4 @@
-program sequence
+program Diatomicsequence
     integer ::n,i
     integer,allocatable,dimension(:) ::x
     read(*,*)n
