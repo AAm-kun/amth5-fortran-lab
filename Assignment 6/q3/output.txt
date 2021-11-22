@@ -1,0 +1,19 @@
+
+Truth table for p<->q and ~p<->~q : 
+p  q  p<->q  ~p<->~q
+F  F    T       T
+F  T    F       F
+T  F    F       F
+T  T    T       T
+
+The logical statements p<->q and ~p<->~q are  equivalent
+
+
+Truth table for ~(p<->q) and p<->~q: 
+p  q  ~(p<->q)  p<->~q
+F  F      F       F
+F  T      T       T
+T  F      T       T
+T  T      F       F
+
+The logical statements ~(p<->q) and p<->~q are  equivalent

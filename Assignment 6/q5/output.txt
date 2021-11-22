@@ -1,0 +1,9 @@
+ The prime number n such that 1<n<100 and n+1,n+2,n+3 and n+4 are not prime numbers :
+ 23
+ 31
+ 47
+ 53
+ 61
+ 73
+ 83
+ 89

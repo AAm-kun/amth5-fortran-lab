@@ -1,0 +1,16 @@
+
+Truth table for p->q and q<->p: 
+p  q  p->q  q<->p
+T  F   T      T
+T  F   T      T
+T  F   T      T
+T  F   T      T
+
+Truth table for p<->q and (p \/ q) \/ (~p \/ ~q): 
+p  q  p<->q    (p /\ q) \/ (~p /\ ~q)
+T  F    T          T
+T  F    T          T
+T  F    T          T
+T  F    T          T
+
+The logical statements p<->q and (p /\ q) \/ (~p /\ ~q) are  equivalent
